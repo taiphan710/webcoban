@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Dề tham khảo 01</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <link href="De01.css" rel="stylesheet">
+    <script src="De01.js"></script>
+</head>
+<body>
+    <div id="main">
+        <div id="hoTen">MSSV: 2251010080 - Họ tên: Phan Anh Tài</div>
+        <div id="banner">BÀI THI ỨNG DỤNG WEB</div>
+        <div id="nav">
+            <ul id="menu">
+                <li><a href="De01.html">Trang chủ</a></li>
+                <li>
+                    <a href="#">Các hãng xe</a>
+                    <ul id="submenu">
+                        <li><a href="#">FORD</a></li>
+                        <li><a href="#">HONDA</a></li>
+                        <li><a href="#">TOYOTA</a></li>
+                        <li><a href="#">HYUNDAI</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+        <div id="container">
+            <div id="pictureCar">
+                <img id="anh1" src="Images/ford_red.jpg">
+                <img id="anh2" src="Images/ford_blue.jpg">
+                <img id="anh3" src="Images/ford_yellow.jpg">
+                <img id="anh4" src="Images/ford_white.jpg">
+            </div>
+            <div id="content">
+                <table>
+                    <caption><b>THÔNG TIN ĐẶT HÀNG</b></caption>
+                    <tr>
+                        <td>Loại xe</td>
+                        <td>
+                            <select id="selBrand">
+                                <option value="Ford">Ford</option>
+                                <option value="Honda">Honda</option>
+                                <option value="Toyota">Toyota</option>
+                                <option value="Hyundai">Hyundai</option> 
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Số lượng</td>
+                        <td><input type="number" id="soLuong" value="1"></td>
+                    </tr>
+                    <tr>
+                        <td>Màu sắc</td>
+                        <td>
+                            <div style="background-color:red"></div>
+                            <div style="background-color: blue"></div>
+                            <div style="background-color: yellow"></div>
+                            <div style="background-color: white"></div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th colspan="2"><img src="Images/ford_red.jpg" id="anhChinh"></th>
+                    </tr>
+                    <tr >
+                        <th colspan="2"><button id="buy">Đặt hàng</button></th>
+                    </tr>
+                    <tr>
+                        <th colspan="2"><p id="kq"></p></th>
+                    </tr>   
+                </table>
+            </div>
+            <div id="footer">
+                Copyright 2023
+            </div>
+        </div>
+    </div>
+</body>
+</html>

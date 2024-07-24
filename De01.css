@@ -1,0 +1,109 @@
+*{
+    margin:0;
+    padding:0;
+}
+#hoTen{
+    color: white;
+    font-size: 1.5em;
+    font-weight: bold;
+    float: right;
+    padding: 20px;
+}
+#banner{
+    background-color: rgb(64, 208, 208);
+    height: 70px;
+    line-height: 70px;
+    padding-left: 15px;
+    font-weight: bold;
+    font-size: 2em;
+    color:rgb(247, 247, 11);
+    text-shadow: 5px 5px 5px red;
+}
+#nav{
+    text-align: center;
+    background-color: rgb(31, 163, 157);
+    height: 40px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+#menu li{
+    display: inline-block;
+    background-color: rgb(0, 128, 122);
+    position: relative;
+    width: 120px;
+    height: 40px;
+    line-height: 40px;
+}
+#menu a{
+    text-decoration: none;
+    color:white;
+    font-weight:bold;
+}
+#menu a:hover{
+    color:yellow;
+}
+ul{
+    list-style-type:none;
+}
+#submenu{
+    display:none;
+}
+#menu li:hover #submenu{
+    display:block;
+    position: absolute;
+}
+#pictureCar{
+    display: flex;
+    flex-direction: column;
+    background-color: aquamarine;
+    height: 450px;
+    width:200px;
+    float: left;
+    margin-right: 5px;
+    padding-left: 15px;
+}
+#pictureCar img{
+    width: 180px;
+    height: 110px;
+    margin-top:0%;
+}
+#content{
+    display: flex;
+    justify-content: center;
+    background-color: aquamarine;
+    height: 450px;
+}
+table{
+    width: 450px;
+    height: 350px;
+    border: solid 1px black;
+    border-collapse: collapse;
+}
+td,th{
+    border:solid black 1px;
+}
+#footer{
+    margin-top: 5px;
+    background-color: rgb(70, 134, 189);
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    color: yellow;
+    clear: left;
+}
+td div{
+    display: inline-block;
+    height: 30px;
+    width: 30px;
+    margin: 5px;
+}
+caption{
+    margin:10px;
+    color: red;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+th img{
+    width: 300px;
+    height: 150px;
+}
